@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rinestone.github.io/rine_stone",
+  "homepage": "https://rinestone.github.io/rine_stone/",
   "name": "rinestore",
   "version": "0.1.0",
   "private": true,
@@ -12,11 +12,12 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
