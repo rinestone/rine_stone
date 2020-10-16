@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/rinestone/static/css/main.5f361e03.chunk.css",
-    "main.js": "/rinestone/static/js/main.af4f73b7.chunk.js",
-    "main.js.map": "/rinestone/static/js/main.af4f73b7.chunk.js.map",
-    "runtime-main.js": "/rinestone/static/js/runtime-main.46a1dfd9.js",
-    "runtime-main.js.map": "/rinestone/static/js/runtime-main.46a1dfd9.js.map",
-    "static/js/2.47baf726.chunk.js": "/rinestone/static/js/2.47baf726.chunk.js",
-    "static/js/2.47baf726.chunk.js.map": "/rinestone/static/js/2.47baf726.chunk.js.map",
-    "index.html": "/rinestone/index.html",
-    "precache-manifest.75ecbe4855314c06fa5ac2474a2ff2c1.js": "/rinestone/precache-manifest.75ecbe4855314c06fa5ac2474a2ff2c1.js",
-    "service-worker.js": "/rinestone/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/rinestone/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.47baf726.chunk.js.LICENSE.txt": "/rinestone/static/js/2.47baf726.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/rinestone/static/media/logo.5d5d9eef.svg"
+    "main.css": "/rine_stone/static/css/main.5f361e03.chunk.css",
+    "main.js": "/rine_stone/static/js/main.865342b5.chunk.js",
+    "main.js.map": "/rine_stone/static/js/main.865342b5.chunk.js.map",
+    "runtime-main.js": "/rine_stone/static/js/runtime-main.08e5526d.js",
+    "runtime-main.js.map": "/rine_stone/static/js/runtime-main.08e5526d.js.map",
+    "static/js/2.47baf726.chunk.js": "/rine_stone/static/js/2.47baf726.chunk.js",
+    "static/js/2.47baf726.chunk.js.map": "/rine_stone/static/js/2.47baf726.chunk.js.map",
+    "index.html": "/rine_stone/index.html",
+    "precache-manifest.bb93dc650a43e27a0c0369d1e68e7b28.js": "/rine_stone/precache-manifest.bb93dc650a43e27a0c0369d1e68e7b28.js",
+    "service-worker.js": "/rine_stone/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/rine_stone/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.47baf726.chunk.js.LICENSE.txt": "/rine_stone/static/js/2.47baf726.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/rine_stone/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.46a1dfd9.js",
+    "static/js/runtime-main.08e5526d.js",
     "static/js/2.47baf726.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.af4f73b7.chunk.js"
+    "static/js/main.865342b5.chunk.js"
   ]
 }
