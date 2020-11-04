@@ -1,0 +1,22 @@
+.image {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 70px;
+    size: 100px;
+}
+
+.title2 {
+    font-size: 30px;
+}

@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import NavBar from "./components/navbar/NavBar";
+import Homepage from "./routes/homepage/homepage";
 
 
 function App() {
-  return (
+    return (
     <div className="App">
-        <NavBar/>
+        <Homepage />
     </div>
-  );
+    );
 }
 
 export default App;

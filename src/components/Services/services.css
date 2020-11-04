@@ -1,0 +1,27 @@
+.serviceSquare {
+    background: white;
+    position: relative;
+    /*max-width: auto;*/
+    width: auto;
+    height: 600px;
+    text-align: center;
+}
+
+.serviceSquare h1 {
+    color: #d16a6a;
+    font-size: 70px;
+}
+
+.serviceSquare h2 {
+    font-size: 30px;
+    color: #784745;
+}
+
+.imageService {
+    margin-left: 100px;
+    width: auto;
+    height: 350px;
+    position: absolute;
+    right: 10%;
+
+}
