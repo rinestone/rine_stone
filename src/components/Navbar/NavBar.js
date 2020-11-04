@@ -16,12 +16,12 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 
-const NavBar = makeStyles((theme) => ({
+const useStyles = makeStyles((theme) => ({
     grow: {
         flexGrow: 1,
     },
     menuButton: {
-        marginRight: theme.spacing(2),
+        marginRight: theme.spacing(6),
     },
     title: {
         display: 'none',
@@ -31,16 +31,15 @@ const NavBar = makeStyles((theme) => ({
     },
     search: {
         position: 'relative',
-        borderRadius: theme.shape.borderRadius,
+        borderRadius: '13px',
         backgroundColor: fade(theme.palette.common.white, 0.15),
         '&:hover': {
             backgroundColor: fade(theme.palette.common.white, 0.25),
         },
-        marginRight: theme.spacing(2),
         marginLeft: 0,
         width: '100%',
         [theme.breakpoints.up('sm')]: {
-            marginLeft: theme.spacing(3),
+            marginLeft: theme.spacing(1),
             width: 'auto',
         },
     },
@@ -62,10 +61,14 @@ const NavBar = makeStyles((theme) => ({
         paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
         transition: theme.transitions.create('width'),
         width: '100%',
-        [theme.breakpoints.up('md')]: {
-            width: '20ch',
+        [theme.breakpoints.up('sm')]: {
+            width: '12ch',
+            '&:focus': {
+                width: '20ch',
+            },
         },
     },
+
     sectionDesktop: {
         display: 'none',
         [theme.breakpoints.up('md')]: {
@@ -81,16 +84,13 @@ const NavBar = makeStyles((theme) => ({
 }));
 
 export default function PrimarySearchAppBar() {
-    const classes = NavBar();
+    const classes = useStyles();
     const [anchorEl, setAnchorEl] = React.useState(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
     const isMenuOpen = Boolean(anchorEl);
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
-    const handleProfileMenuOpen = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
 
     const handleMobileMenuClose = () => {
         setMobileMoreAnchorEl(null);
@@ -102,6 +102,10 @@ export default function PrimarySearchAppBar() {
     };
 
     const handleMobileMenuOpen = (event) => {
+        setMobileMoreAnchorEl(event.currentTarget);
+    };
+
+    const handleMobileRouteOpen = (event) => {
         setMobileMoreAnchorEl(event.currentTarget);
     };
 
@@ -118,6 +122,40 @@ export default function PrimarySearchAppBar() {
         >
             <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
             <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+        </Menu>
+    );
+    const MenuId = (
+        <Menu
+            anchorEl={mobileMoreAnchorEl}
+            anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+            keepMounted
+            transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+            open={isMobileMenuOpen}
+            onClose={handleMobileRouteOpen}
+        >
+            <MenuItem>
+                <p>Acasa</p>
+            </MenuItem>
+            <MenuItem>
+                <p>Aranjamente Florale</p>
+            </MenuItem>
+            <MenuItem>
+                <p>Bratari</p>
+            </MenuItem>
+            <MenuItem>
+                <p>Ochelari</p>
+            </MenuItem>
+            {/*<MenuItem onClick={handleProfileMenuOpen}>*/}
+            {/*    <IconButton*/}
+            {/*        aria-label="account of current user"*/}
+            {/*        aria-controls="primary-search-account-menu"*/}
+            {/*        aria-haspopup="true"*/}
+            {/*        color="inherit"*/}
+            {/*    >*/}
+            {/*        <AccountCircle />*/}
+            {/*    </IconButton>*/}
+            {/*    <p>Profile</p>*/}
+            {/*</MenuItem>*/}
         </Menu>
     );
 
@@ -138,27 +176,27 @@ export default function PrimarySearchAppBar() {
                         <ShoppingCartIcon />
                     </Badge>
                 </IconButton>
-                <p>Messages</p>
+                <p>Chart</p>
             </MenuItem>
             <MenuItem>
                 <IconButton aria-label="show 11 new notifications" color="inherit">
-                    <Badge badgeContent={11} color="secondary">
+                    <Badge badgeContent={0} color="secondary">
                         <NotificationsIcon />
                     </Badge>
                 </IconButton>
-                <p>Notifications</p>
+                <p>Notificari</p>
             </MenuItem>
-            <MenuItem onClick={handleProfileMenuOpen}>
-                <IconButton
-                    aria-label="account of current user"
-                    aria-controls="primary-search-account-menu"
-                    aria-haspopup="true"
-                    color="inherit"
-                >
-                    <AccountCircle />
-                </IconButton>
-                <p>Profile</p>
-            </MenuItem>
+            {/*<MenuItem onClick={handleProfileMenuOpen}>*/}
+            {/*    <IconButton*/}
+            {/*        aria-label="account of current user"*/}
+            {/*        aria-controls="primary-search-account-menu"*/}
+            {/*        aria-haspopup="true"*/}
+            {/*        color="inherit"*/}
+            {/*    >*/}
+            {/*        <AccountCircle />*/}
+            {/*    </IconButton>*/}
+            {/*    <p>Profile</p>*/}
+            {/*</MenuItem>*/}
         </Menu>
     );
 
@@ -168,7 +206,9 @@ export default function PrimarySearchAppBar() {
                 <Toolbar>
                     <IconButton
                         edge="start"
+                        id={MenuId}
                         className={classes.menuButton}
+                        onClick={handleMobileRouteOpen}
                         color="inherit"
                         aria-label="open drawer"
                     >
@@ -177,12 +217,13 @@ export default function PrimarySearchAppBar() {
                     <Typography className={classes.title} variant="h6" noWrap>
                         Rine Store
                     </Typography>
+                    <div className={classes.grow} />
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>
                             <SearchIcon />
                         </div>
                         <InputBase
-                            placeholder="Search…"
+                            placeholder="Cautare…"
                             classes={{
                                 root: classes.inputRoot,
                                 input: classes.inputInput,
@@ -190,7 +231,6 @@ export default function PrimarySearchAppBar() {
                             inputProps={{ 'aria-label': 'search' }}
                         />
                     </div>
-                    <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
                         <IconButton color="inherit">
                             <Badge color="secondary">
@@ -201,16 +241,6 @@ export default function PrimarySearchAppBar() {
                             <Badge color="secondary">
                                 <ShoppingCartIcon />
                             </Badge>
-                        </IconButton>
-                        <IconButton
-                            edge="end"
-                            aria-label="account of current user"
-                            aria-controls={menuId}
-                            aria-haspopup="true"
-                            onClick={handleProfileMenuOpen}
-                            color="inherit"
-                        >
-                            <AccountCircle />
                         </IconButton>
                     </div>
                     <div className={classes.sectionMobile}>
