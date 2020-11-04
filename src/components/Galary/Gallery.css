@@ -1,0 +1,24 @@
+.square {
+    background: #d48585;
+    position: relative;
+    height: 650px;
+    text-align: center;
+}
+
+.square h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.square h2 {
+    font-size: 30px;
+    color: #784745;
+}
+
+.slick-slide {
+    /*margin: auto;*/
+    display: inline-block;
+}
+
+
+

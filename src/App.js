@@ -1,16 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Homepage from "./routes/homepage/homepage";
+
 
 function App() {
-  return (
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-          Work in progress for RINESTONE.
-      </header>
+        <Homepage />
     </div>
-  );
+    );
 }
 
 export default App;
