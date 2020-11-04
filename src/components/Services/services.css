@@ -3,24 +3,24 @@
     position: relative;
     /*max-width: auto;*/
     width: auto;
-    height: 600px;
+    height: 60vw;
     text-align: center;
 }
 
 .serviceSquare h1 {
     color: #d16a6a;
-    font-size: 70px;
+    font-size: 7vw;
 }
 
 .serviceSquare h2 {
-    font-size: 30px;
+    font-size: 3vw;
     color: #784745;
 }
 
 .imageService {
     margin-left: 100px;
     width: auto;
-    height: 350px;
+    height: 40vw;
     position: absolute;
     right: 10%;
 

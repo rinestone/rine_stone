@@ -1,20 +1,25 @@
 .square {
     background: #d48585;
     position: relative;
-    height: 650px;
+    height: 60vw;
     text-align: center;
 }
 
 .square h1 {
     color: white;
-    font-size: 70px;
+    font-size: 7vw;
 }
 
 .square h2 {
-    font-size: 30px;
+    font-size: 2vw;
     color: #784745;
 }
 
+.sliderimg {
+    position: center;
+    height: 25vw;
+    width: 25vw;
+}
 .slick-slide {
     /*margin: auto;*/
     display: inline-block;

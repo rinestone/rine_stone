@@ -24,7 +24,7 @@ export default class Gallery extends Component {
 
         return (
             <div class={'square'}>
-                <h1>Galerie</h1>
+                <h1>GALERIE</h1>
                 <h2>PRODUSELE NOASTRE</h2>
                 <Slider {...settings} style={{}}>
                         <div>
