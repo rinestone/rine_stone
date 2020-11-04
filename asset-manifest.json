@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/rine_stone/static/css/main.b05506aa.chunk.css",
-    "main.js": "/rine_stone/static/js/main.2f9fe7a4.chunk.js",
-    "main.js.map": "/rine_stone/static/js/main.2f9fe7a4.chunk.js.map",
+    "main.css": "/rine_stone/static/css/main.c93ce409.chunk.css",
+    "main.js": "/rine_stone/static/js/main.82d715f1.chunk.js",
+    "main.js.map": "/rine_stone/static/js/main.82d715f1.chunk.js.map",
     "runtime-main.js": "/rine_stone/static/js/runtime-main.08e5526d.js",
     "runtime-main.js.map": "/rine_stone/static/js/runtime-main.08e5526d.js.map",
-    "static/js/2.c853324b.chunk.js": "/rine_stone/static/js/2.c853324b.chunk.js",
-    "static/js/2.c853324b.chunk.js.map": "/rine_stone/static/js/2.c853324b.chunk.js.map",
+    "static/js/2.4ed6cd84.chunk.js": "/rine_stone/static/js/2.4ed6cd84.chunk.js",
+    "static/js/2.4ed6cd84.chunk.js.map": "/rine_stone/static/js/2.4ed6cd84.chunk.js.map",
     "index.html": "/rine_stone/index.html",
-    "precache-manifest.a82587a2698e566973a6a63bf94a7d76.js": "/rine_stone/precache-manifest.a82587a2698e566973a6a63bf94a7d76.js",
+    "precache-manifest.741886787d944663224c829a117301ab.js": "/rine_stone/precache-manifest.741886787d944663224c829a117301ab.js",
     "service-worker.js": "/rine_stone/service-worker.js",
-    "static/css/main.b05506aa.chunk.css.map": "/rine_stone/static/css/main.b05506aa.chunk.css.map",
-    "static/js/2.c853324b.chunk.js.LICENSE.txt": "/rine_stone/static/js/2.c853324b.chunk.js.LICENSE.txt",
+    "static/css/main.c93ce409.chunk.css.map": "/rine_stone/static/css/main.c93ce409.chunk.css.map",
+    "static/js/2.4ed6cd84.chunk.js.LICENSE.txt": "/rine_stone/static/js/2.4ed6cd84.chunk.js.LICENSE.txt",
+    "static/media/homeFlowers.png": "/rine_stone/static/media/homeFlowers.ccd68127.png",
     "static/media/slide1.png": "/rine_stone/static/media/slide1.8eac8de5.png",
+    "static/media/slide3.png": "/rine_stone/static/media/slide3.8a2a1a59.png",
     "static/media/slide_elem1.png": "/rine_stone/static/media/slide_elem1.a5db8a2d.png",
     "static/media/slide_elem2.png": "/rine_stone/static/media/slide_elem2.e6803983.png",
     "static/media/slide_elem3.png": "/rine_stone/static/media/slide_elem3.30401bcd.png",
@@ -20,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.08e5526d.js",
-    "static/js/2.c853324b.chunk.js",
-    "static/css/main.b05506aa.chunk.css",
-    "static/js/main.2f9fe7a4.chunk.js"
+    "static/js/2.4ed6cd84.chunk.js",
+    "static/css/main.c93ce409.chunk.css",
+    "static/js/main.82d715f1.chunk.js"
   ]
 }
