@@ -10,8 +10,8 @@ function App() {
     return (
     <div className="App">
         <Switch>
-            <Route exact from="/" render={props => <Homepage {...props} />} />
-            <Route exact path="/bratari" render={props => <Bratari {...props} />} />
+            <Route exact from="/rine_stone/" render={props => <Homepage {...props} />} />
+            <Route exact path="/rine_stone/bratari" render={props => <Bratari {...props} />} />
         </Switch>
     </div>
     );
