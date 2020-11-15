@@ -19,8 +19,6 @@ export default function Ochelari() {
     return (
         <div>
             <NavBar/>
-            {/* bardas */}
-            Pagina ochelari
             <div className={"image"}>
                 <img src={ochelariSlide} alt={"slide3"} className={"image"}/>
                 <div className={"centered"}>

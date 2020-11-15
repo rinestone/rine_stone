@@ -14,6 +14,7 @@ import {Link} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     grow: {
+        textDecoration: 'none',
         flexGrow: 1,
     },
     menuButton: {
@@ -118,40 +119,6 @@ export default function PrimarySearchAppBar() {
             <MenuItem onClick={handleMenuClose}>My account</MenuItem>
         </Menu>
     );
-    const MenuId = (
-        <Menu
-            anchorEl={mobileMoreAnchorEl}
-            anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
-            keepMounted
-            transformOrigin={{ vertical: 'top', horizontal: 'right' }}
-            open={isMobileMenuOpen}
-            onClose={handleMobileRouteOpen}
-        >
-            <MenuItem>
-                <p>Acasa</p>
-            </MenuItem>
-            <MenuItem>
-                <p>Aranjamente Florale</p>
-            </MenuItem>
-            <MenuItem>
-                <p>Bratari</p>
-            </MenuItem>
-            <MenuItem>
-                <p>Ochelari</p>
-            </MenuItem>
-            {/*<MenuItem onClick={handleProfileMenuOpen}>*/}
-            {/*    <IconButton*/}
-            {/*        aria-label="account of current user"*/}
-            {/*        aria-controls="primary-search-account-menu"*/}
-            {/*        aria-haspopup="true"*/}
-            {/*        color="inherit"*/}
-            {/*    >*/}
-            {/*        <AccountCircle />*/}
-            {/*    </IconButton>*/}
-            {/*    <p>Profile</p>*/}
-            {/*</MenuItem>*/}
-        </Menu>
-    );
 
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (
@@ -191,7 +158,7 @@ export default function PrimarySearchAppBar() {
                 <Toolbar>
                     <IconButton
                         edge="start"
-                        id={MenuId}
+                        id={menuId}
                         className={classes.menuButton}
                         onClick={handleMobileRouteOpen}
                         color="inherit"

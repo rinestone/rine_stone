@@ -18,8 +18,6 @@ export default function Bratari() {
     return (
         <div>
             <NavBar/>
-            {/* bardas */}
-            Pagina bratari
             <div className={"image"}>
                 <img src={slide3} alt={"slide3"} className={"image"}/>
                 <div className={"centered"}>
