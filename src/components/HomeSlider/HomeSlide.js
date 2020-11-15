@@ -1,5 +1,5 @@
 import React from "react";
-import slide1 from '../../images/slide1.png'
+import slide1 from '../../images/slideElem/slide1.png'
 import './homepage.css'
 
 export default function Home_Image() {

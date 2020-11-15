@@ -1,5 +1,5 @@
 import React from 'react';
-import flowers from "../../images/homeFlowers.png";
+import flowers from "../../images/home/homeFlowers.png";
 import "./services.css";
 
 export default function Services() {

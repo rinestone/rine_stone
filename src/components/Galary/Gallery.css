@@ -1,7 +1,7 @@
 .square {
     background: #d48585;
     position: relative;
-    height: 60vw;
+    height: 50vw;
     text-align: center;
 }
 
@@ -13,9 +13,21 @@
 .square h2 {
     font-size: 2vw;
     color: #784745;
+    margin-bottom: 20px;
+}
+
+.emptysquare {
+    height: 35px;
+    background-color: #bbb98e;
+}
+
+.slick-list {
+    height: 30vw;
+    background-color: #bbb98e;
 }
 
 .sliderimg {
+    margin: 0px auto;
     position: center;
     height: 25vw;
     width: 25vw;
@@ -25,5 +37,9 @@
     display: inline-block;
 }
 
+
+.slick-track {
+    position: center;
+}
 
 

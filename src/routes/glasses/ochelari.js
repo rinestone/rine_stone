@@ -8,20 +8,21 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-import { bratariCart } from "../../constants/products"
-import { useStyles } from "../../constants/constants"
+import ochelariSlide from "../../images/grasses/ochelari.png"
+import { useStyles } from "../../constants/constants";
+import { ochelariCart } from "../../constants/products"
 import "../style.css";
 
-export default function Bratari() {
+export default function Ochelari() {
     const classes = useStyles();
 
     return (
         <div>
             <NavBar/>
             <div className={"image"}>
-                <img src={slide3} alt={"slide3"} className={"image"}/>
+                <img src={ochelariSlide} alt={"slide3"} className={"image"}/>
                 <div className={"centered"}>
-                    <div className={"bracelet"}>BRATARI</div>
+                    <div className={"bracelet"}>OCHELARI</div>
                 </div>
                 <div className={"lineBracelet"}>
                 </div>
@@ -29,7 +30,7 @@ export default function Bratari() {
             <div>
                 <Container className={classes.cardGrid} maxWidth="md">
                     <Grid container spacing={4}>
-                        {bratariCart.map(card => (
+                        {ochelariCart.map(card => (
                             <Grid item key={card} xs={12} sm={6} md={4}>
                                 <Card className={classes.card}>
                                     <CardMedia

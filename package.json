@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rinestone.github.io/rine_stone/",
+  "homepage": "https://rinestone.github.io/rine_store/",
   "name": "rinestore",
   "version": "0.1.0",
   "private": true,
@@ -10,10 +10,11 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.4.3",
+    "react-ui-cards": "^2.0.0",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "predeploy" : "npm build",
+    "predeploy": "npm build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +41,9 @@
     "@material-ui/icons": "^4.9.1",
     "gh-pages": "^3.1.0",
     "react-icons": "^3.11.0",
-    "react-slick": "^0.27.12"
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.27.12",
+    "semantic-ui-react": "^2.0.1",
+    "styled-components": "^5.2.1"
   }
 }

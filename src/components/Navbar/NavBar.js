@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             backgroundColor: fade(theme.palette.common.white, 0.25),
         },
+
         marginLeft: 0,
         width: '100%',
         [theme.breakpoints.up('sm')]: {
@@ -231,29 +232,29 @@ export default function PrimarySearchAppBar() {
                             inputProps={{ 'aria-label': 'search' }}
                         />
                     </div>
-                    <div className={classes.sectionDesktop}>
-                        <IconButton color="inherit">
-                            <Badge color="secondary">
-                                <NotificationsIcon />
-                            </Badge>
-                        </IconButton>
-                        <IconButton color="inherit">
-                            <Badge color="secondary">
-                                <ShoppingCartIcon />
-                            </Badge>
-                        </IconButton>
-                    </div>
-                    <div className={classes.sectionMobile}>
-                        <IconButton
-                            aria-label="show more"
-                            aria-controls={mobileMenuId}
-                            aria-haspopup="true"
-                            onClick={handleMobileMenuOpen}
-                            color="inherit"
-                        >
-                            <MoreIcon />
-                        </IconButton>
-                    </div>
+                    {/*<div className={classes.sectionDesktop}>*/}
+                    {/*    <IconButton color="inherit">*/}
+                    {/*        <Badge color="secondary">*/}
+                    {/*            <NotificationsIcon />*/}
+                    {/*        </Badge>*/}
+                    {/*    </IconButton>*/}
+                    {/*    <IconButton color="inherit">*/}
+                    {/*        <Badge color="secondary">*/}
+                    {/*            <ShoppingCartIcon />*/}
+                    {/*        </Badge>*/}
+                    {/*    </IconButton>*/}
+                    {/*</div>*/}
+                    {/*<div className={classes.sectionMobile}>*/}
+                    {/*    <IconButton*/}
+                    {/*        aria-label="show more"*/}
+                    {/*        aria-controls={mobileMenuId}*/}
+                    {/*        aria-haspopup="true"*/}
+                    {/*        onClick={handleMobileMenuOpen}*/}
+                    {/*        color="inherit"*/}
+                    {/*    >*/}
+                    {/*        <MoreIcon />*/}
+                    {/*    </IconButton>*/}
+                    {/*</div>*/}
                 </Toolbar>
             </AppBar>
             {renderMobileMenu}

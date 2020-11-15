@@ -1,0 +1,53 @@
+.image {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: #d48585;
+}
+
+.lineBracelet {
+    background: #d48585;
+    height: 50px;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered .bracelet {
+    font-size: 6vw;
+    padding-bottom: 40px;
+}
+
+.bracelet {
+    font-size: 70px;
+    size: 100px;
+}
+
+.bracelet {
+    width: 90%;
+    height: auto;
+}
+
+.card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 1 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 30vw;
+    margin: auto;
+    text-align: center;
+    font-family: arial, serif;
+}
+
+.card h1 {
+    font-size: 4vw;
+}
+
+.price {
+    color: grey;
+    font-size: 3vw;
+}
