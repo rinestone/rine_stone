@@ -4,17 +4,13 @@ import { fade, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import Typography from '@material-ui/core/Typography';
 import InputBase from '@material-ui/core/InputBase';
-import Badge from '@material-ui/core/Badge';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
-import AccountCircle from '@material-ui/icons/AccountCircle';
-import NotificationsIcon from '@material-ui/icons/Notifications';
-import MoreIcon from '@material-ui/icons/MoreVert';
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -102,9 +98,6 @@ export default function PrimarySearchAppBar() {
         handleMobileMenuClose();
     };
 
-    const handleMobileMenuOpen = (event) => {
-        setMobileMoreAnchorEl(event.currentTarget);
-    };
 
     const handleMobileRouteOpen = (event) => {
         setMobileMoreAnchorEl(event.currentTarget);
@@ -170,34 +163,25 @@ export default function PrimarySearchAppBar() {
             transformOrigin={{ vertical: 'top', horizontal: 'right' }}
             open={isMobileMenuOpen}
             onClose={handleMobileMenuClose}
-        >
+        > 
             <MenuItem>
-                <IconButton color="inherit">
-                    <Badge color="secondary">
-                        <ShoppingCartIcon />
-                    </Badge>
-                </IconButton>
-                <p>Chart</p>
+                <Link to={'/aranjamente'}><p>ARANJAMENTE FLORALE</p></Link>
             </MenuItem>
             <MenuItem>
-                <IconButton aria-label="show 11 new notifications" color="inherit">
-                    <Badge badgeContent={0} color="secondary">
-                        <NotificationsIcon />
-                    </Badge>
-                </IconButton>
-                <p>Notificari</p>
+                <Link to={'/bratari'}><p>BRATARI</p></Link>
             </MenuItem>
-            {/*<MenuItem onClick={handleProfileMenuOpen}>*/}
-            {/*    <IconButton*/}
-            {/*        aria-label="account of current user"*/}
-            {/*        aria-controls="primary-search-account-menu"*/}
-            {/*        aria-haspopup="true"*/}
-            {/*        color="inherit"*/}
-            {/*    >*/}
-            {/*        <AccountCircle />*/}
-            {/*    </IconButton>*/}
-            {/*    <p>Profile</p>*/}
-            {/*</MenuItem>*/}
+            <MenuItem>
+                <Link to={'/ochelari'}><p>OCHELARI</p></Link>
+            </MenuItem>
+            <MenuItem>
+                <Link to={'/ceasuriB'}><p>CEASURI BARBATESTI</p></Link>
+            </MenuItem>
+            <MenuItem>
+                <Link to={'/ceasuriF'}><p>CEASURI DAMA</p></Link>
+            </MenuItem>
+            <MenuItem>
+                <Link to={'/costumeBaie'}><p>COSTUME DE BAIE</p></Link>
+            </MenuItem>
         </Menu>
     );
 

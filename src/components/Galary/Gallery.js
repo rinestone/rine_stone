@@ -31,7 +31,6 @@ export default class Gallery extends Component {
             <div class={'square'}>
                 <h1>GALERIE</h1>
                 <h2>PRODUSELE NOASTRE</h2>
-                <div className={'emptysquare'}/>
                 <Slider {...settings} >
                     <div>
                         <img src={elem1} alt={elem1} className={'sliderimg'} />
