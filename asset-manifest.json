@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rine_store/static/css/main.569d280d.chunk.css",
-    "main.js": "/rine_store/static/js/main.3a966264.chunk.js",
-    "main.js.map": "/rine_store/static/js/main.3a966264.chunk.js.map",
+    "main.js": "/rine_store/static/js/main.b2823387.chunk.js",
+    "main.js.map": "/rine_store/static/js/main.b2823387.chunk.js.map",
     "runtime-main.js": "/rine_store/static/js/runtime-main.0a3927b1.js",
     "runtime-main.js.map": "/rine_store/static/js/runtime-main.0a3927b1.js.map",
     "static/css/2.b22db313.chunk.css": "/rine_store/static/css/2.b22db313.chunk.css",
     "static/js/2.e6817596.chunk.js": "/rine_store/static/js/2.e6817596.chunk.js",
     "static/js/2.e6817596.chunk.js.map": "/rine_store/static/js/2.e6817596.chunk.js.map",
     "index.html": "/rine_store/index.html",
-    "precache-manifest.3329cc63535aba4af73434a93cf33163.js": "/rine_store/precache-manifest.3329cc63535aba4af73434a93cf33163.js",
+    "precache-manifest.b3982bac06f76f950a3fea6245fe6f59.js": "/rine_store/precache-manifest.b3982bac06f76f950a3fea6245fe6f59.js",
     "service-worker.js": "/rine_store/service-worker.js",
     "static/css/2.b22db313.chunk.css.map": "/rine_store/static/css/2.b22db313.chunk.css.map",
     "static/css/main.569d280d.chunk.css.map": "/rine_store/static/css/main.569d280d.chunk.css.map",
@@ -42,6 +42,6 @@
     "static/css/2.b22db313.chunk.css",
     "static/js/2.e6817596.chunk.js",
     "static/css/main.569d280d.chunk.css",
-    "static/js/main.3a966264.chunk.js"
+    "static/js/main.b2823387.chunk.js"
   ]
 }
