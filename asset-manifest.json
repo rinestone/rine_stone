@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/rine_store/static/css/main.cfc1f7b3.chunk.css",
-    "main.js": "/rine_store/static/js/main.adeb2e41.chunk.js",
-    "main.js.map": "/rine_store/static/js/main.adeb2e41.chunk.js.map",
+    "main.css": "/rine_store/static/css/main.a1eacfbb.chunk.css",
+    "main.js": "/rine_store/static/js/main.44e5e2ef.chunk.js",
+    "main.js.map": "/rine_store/static/js/main.44e5e2ef.chunk.js.map",
     "runtime-main.js": "/rine_store/static/js/runtime-main.0a3927b1.js",
     "runtime-main.js.map": "/rine_store/static/js/runtime-main.0a3927b1.js.map",
     "static/css/2.b22db313.chunk.css": "/rine_store/static/css/2.b22db313.chunk.css",
-    "static/js/2.39b7f5f5.chunk.js": "/rine_store/static/js/2.39b7f5f5.chunk.js",
-    "static/js/2.39b7f5f5.chunk.js.map": "/rine_store/static/js/2.39b7f5f5.chunk.js.map",
+    "static/js/2.16b73b1c.chunk.js": "/rine_store/static/js/2.16b73b1c.chunk.js",
+    "static/js/2.16b73b1c.chunk.js.map": "/rine_store/static/js/2.16b73b1c.chunk.js.map",
     "index.html": "/rine_store/index.html",
-    "precache-manifest.432bd021b590474f8a0182320d78559b.js": "/rine_store/precache-manifest.432bd021b590474f8a0182320d78559b.js",
+    "precache-manifest.b333b8ba62ba8767b3393292c72d3814.js": "/rine_store/precache-manifest.b333b8ba62ba8767b3393292c72d3814.js",
     "service-worker.js": "/rine_store/service-worker.js",
     "static/css/2.b22db313.chunk.css.map": "/rine_store/static/css/2.b22db313.chunk.css.map",
-    "static/css/main.cfc1f7b3.chunk.css.map": "/rine_store/static/css/main.cfc1f7b3.chunk.css.map",
-    "static/js/2.39b7f5f5.chunk.js.LICENSE.txt": "/rine_store/static/js/2.39b7f5f5.chunk.js.LICENSE.txt",
+    "static/css/main.a1eacfbb.chunk.css.map": "/rine_store/static/css/main.a1eacfbb.chunk.css.map",
+    "static/js/2.16b73b1c.chunk.js.LICENSE.txt": "/rine_store/static/js/2.16b73b1c.chunk.js.LICENSE.txt",
+    "static/media/Segoe Script.ttf": "/rine_store/static/media/Segoe Script.5c452fb7.ttf",
     "static/media/aranjamenteSlide.png": "/rine_store/static/media/aranjamenteSlide.8395122c.png",
     "static/media/baieSlide.png": "/rine_store/static/media/baieSlide.37cab33f.png",
     "static/media/bratara_15lei.png": "/rine_store/static/media/bratara_15lei.0fe68b2e.png",
@@ -40,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.0a3927b1.js",
     "static/css/2.b22db313.chunk.css",
-    "static/js/2.39b7f5f5.chunk.js",
-    "static/css/main.cfc1f7b3.chunk.css",
-    "static/js/main.adeb2e41.chunk.js"
+    "static/js/2.16b73b1c.chunk.js",
+    "static/css/main.a1eacfbb.chunk.css",
+    "static/js/main.44e5e2ef.chunk.js"
   ]
 }

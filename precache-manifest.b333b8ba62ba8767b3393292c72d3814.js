@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f12ad13572f7248adc635a047da3c3c3",
+    "revision": "808bb1880e7b7e579f312bf44de9be95",
     "url": "/rine_store/index.html"
   },
   {
-    "revision": "bc3149baf0eea1473882",
+    "revision": "68bc092df6faf811c193",
     "url": "/rine_store/static/css/2.b22db313.chunk.css"
   },
   {
-    "revision": "bcf79b2f2cc577edfa91",
-    "url": "/rine_store/static/css/main.cfc1f7b3.chunk.css"
+    "revision": "330c1375225db226f816",
+    "url": "/rine_store/static/css/main.a1eacfbb.chunk.css"
   },
   {
-    "revision": "bc3149baf0eea1473882",
-    "url": "/rine_store/static/js/2.39b7f5f5.chunk.js"
+    "revision": "68bc092df6faf811c193",
+    "url": "/rine_store/static/js/2.16b73b1c.chunk.js"
   },
   {
     "revision": "1a3cc71403f332d098a2b9cdd7c4c36d",
-    "url": "/rine_store/static/js/2.39b7f5f5.chunk.js.LICENSE.txt"
+    "url": "/rine_store/static/js/2.16b73b1c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bcf79b2f2cc577edfa91",
-    "url": "/rine_store/static/js/main.adeb2e41.chunk.js"
+    "revision": "330c1375225db226f816",
+    "url": "/rine_store/static/js/main.44e5e2ef.chunk.js"
   },
   {
     "revision": "7f3faa920dcdd38d475f",
     "url": "/rine_store/static/js/runtime-main.0a3927b1.js"
+  },
+  {
+    "revision": "5c452fb7a0f5751f4e94e9d84eb01154",
+    "url": "/rine_store/static/media/Segoe Script.5c452fb7.ttf"
   },
   {
     "revision": "8395122c10048910afc86c14fb3f46b0",
