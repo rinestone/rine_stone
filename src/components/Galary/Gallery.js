@@ -7,6 +7,7 @@ import elem3 from "../../images/slideElem/slide_elem3.png"
 import elem4 from "../../images/slideElem/slide_elem4.png"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {Link} from "react-router-dom";
 
 
 export default class Gallery extends Component {
@@ -32,22 +33,22 @@ export default class Gallery extends Component {
                 <h1>GALERIE</h1>
                 <h2>PRODUSELE NOASTRE</h2>
                 <Slider {...settings} >
-                    <div>
+                    <Link to={'/rine_store/aranjamente'}><div>
                         <img src={elem1} alt={elem1} className={'sliderimg'} />
                         <h2>Aranjamente Florale</h2>
-                    </div>
-                    <div>
+                    </div></Link>
+                    <Link to={'/rine_store/ochelari'}><div>
                         <img src={elem2} alt={elem2} className={'sliderimg'}/>
                         <h2>Ochelari</h2>
-                    </div>
-                    <div>
+                    </div></Link>
+                    <Link to={'/rine_store/ceasuriB'}><div>
                         <img src={elem3} alt={elem3} className={'sliderimg'}/>
                         <h2>Ceasuri</h2>
-                    </div>
-                    <div>
+                    </div></Link>
+                    <Link to={'/rine_store/bratari'}><div>
                         <img src={elem4} alt={elem4} className={'sliderimg'}/>
                         <h2>Bratari</h2>
-                    </div>
+                    </div></Link>
                 </Slider>
             </div>
         );

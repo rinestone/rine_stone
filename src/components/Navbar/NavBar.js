@@ -130,25 +130,28 @@ export default function PrimarySearchAppBar() {
             transformOrigin={{ vertical: 'top', horizontal: 'right' }}
             open={isMobileMenuOpen}
             onClose={handleMobileMenuClose}
-        > 
-            <MenuItem>
-                <Link to={'/aranjamente'}><p>ARANJAMENTE FLORALE</p></Link>
-            </MenuItem>
-            <MenuItem>
-                <Link to={'/bratari'}><p>BRATARI</p></Link>
-            </MenuItem>
-            <MenuItem>
-                <Link to={'/ochelari'}><p>OCHELARI</p></Link>
-            </MenuItem>
-            <MenuItem>
-                <Link to={'/ceasuriB'}><p>CEASURI BARBATESTI</p></Link>
-            </MenuItem>
-            <MenuItem>
-                <Link to={'/ceasuriF'}><p>CEASURI DAMA</p></Link>
-            </MenuItem>
-            <MenuItem>
-                <Link to={'/costumeBaie'}><p>COSTUME DE BAIE</p></Link>
-            </MenuItem>
+        >
+            <Link to={'/rine_store/'}><MenuItem>
+                <p>ACASA</p>
+            </MenuItem></Link>
+            <Link to={'/rine_store/aranjamente'}><MenuItem>
+                <p>ARANJAMENTE FLORALE</p>
+            </MenuItem></Link>
+            <Link to={'/rine_store/bratari'}><MenuItem>
+                <p>BRATARI</p>
+            </MenuItem></Link>
+            <Link to={'/rine_store/ochelari'}><MenuItem>
+                <p>OCHELARI</p>
+            </MenuItem></Link>
+            <Link to={'/rine_store/ceasuriB'}><MenuItem>
+                <p>CEASURI BARBATESTI</p>
+            </MenuItem></Link>
+            <Link to={'/rine_store/ceasuriF'}><MenuItem>
+                <p>CEASURI DAMA</p>
+            </MenuItem></Link>
+            <Link to={'/rine_store/costumeBaie'}><MenuItem>
+                <p>COSTUME DE BAIE</p>
+            </MenuItem></Link>
         </Menu>
     );
 
