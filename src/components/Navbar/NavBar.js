@@ -18,9 +18,10 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
     },
     menuButton: {
-        marginRight: theme.spacing(6),
+        marginRight: theme.spacing(3),
     },
     title: {
+        fontFamily: 'Segoe Script',
         display: 'none',
         [theme.breakpoints.up('sm')]: {
             display: 'block',
@@ -37,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: 0,
         width: '100%',
         [theme.breakpoints.up('sm')]: {
-            marginLeft: theme.spacing(1),
+            marginLeft: theme.spacing(2),
             width: 'auto',
         },
     },
@@ -67,18 +68,6 @@ const useStyles = makeStyles((theme) => ({
         },
     },
 
-    sectionDesktop: {
-        display: 'none',
-        [theme.breakpoints.up('md')]: {
-            display: 'flex',
-        },
-    },
-    sectionMobile: {
-        display: 'flex',
-        [theme.breakpoints.up('md')]: {
-            display: 'none',
-        },
-    },
 }));
 
 export default function PrimarySearchAppBar() {
@@ -99,26 +88,11 @@ export default function PrimarySearchAppBar() {
         handleMobileMenuClose();
     };
 
-
     const handleMobileRouteOpen = (event) => {
         setMobileMoreAnchorEl(event.currentTarget);
     };
 
     const menuId = 'primary-search-account-menu';
-    const renderMenu = (
-        <Menu
-            anchorEl={anchorEl}
-            anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
-            id={menuId}
-            keepMounted
-            transformOrigin={{ vertical: 'top', horizontal: 'right' }}
-            open={isMenuOpen}
-            onClose={handleMenuClose}
-        >
-            <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-            <MenuItem onClick={handleMenuClose}>My account</MenuItem>
-        </Menu>
-    );
 
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (
@@ -131,27 +105,29 @@ export default function PrimarySearchAppBar() {
             open={isMobileMenuOpen}
             onClose={handleMobileMenuClose}
         >
-            <Link to={'/rine_store/'}><MenuItem>
-                <p>ACASA</p>
-            </MenuItem></Link>
-            <Link to={'/rine_store/aranjamente'}><MenuItem>
-                <p>ARANJAMENTE FLORALE</p>
-            </MenuItem></Link>
-            <Link to={'/rine_store/bratari'}><MenuItem>
-                <p>BRATARI</p>
-            </MenuItem></Link>
-            <Link to={'/rine_store/ochelari'}><MenuItem>
-                <p>OCHELARI</p>
-            </MenuItem></Link>
-            <Link to={'/rine_store/ceasuriB'}><MenuItem>
-                <p>CEASURI BARBATESTI</p>
-            </MenuItem></Link>
-            <Link to={'/rine_store/ceasuriF'}><MenuItem>
-                <p>CEASURI DAMA</p>
-            </MenuItem></Link>
-            <Link to={'/rine_store/costumeBaie'}><MenuItem>
-                <p>COSTUME DE BAIE</p>
-            </MenuItem></Link>
+            <div style={{backgroundColor: 'black', opacity:0.9}}>
+                <Link to={'/rine_store/'}><MenuItem>
+                    <p>ACASA</p>
+                </MenuItem></Link>
+                <Link to={'/rine_store/aranjamente'}><MenuItem>
+                    <p>ARANJAMENTE FLORALE</p>
+                </MenuItem></Link>
+                <Link to={'/rine_store/bratari'}><MenuItem>
+                    <p>BRATARI</p>
+                </MenuItem></Link>
+                <Link to={'/rine_store/ochelari'}><MenuItem>
+                    <p>OCHELARI</p>
+                </MenuItem></Link>
+                <Link to={'/rine_store/ceasuriB'}><MenuItem>
+                    <p>CEASURI BARBATESTI</p>
+                </MenuItem></Link>
+                <Link to={'/rine_store/ceasuriF'}><MenuItem>
+                    <p>CEASURI DAMA</p>
+                </MenuItem></Link>
+                <Link to={'/rine_store/costumeBaie'}><MenuItem>
+                    <p>COSTUME DE BAIE</p>
+                </MenuItem></Link>
+            </div>
         </Menu>
     );
 
@@ -186,33 +162,9 @@ export default function PrimarySearchAppBar() {
                             inputProps={{ 'aria-label': 'search' }}
                         />
                     </div>
-                    {/*<div className={classes.sectionDesktop}>*/}
-                    {/*    <IconButton color="inherit">*/}
-                    {/*        <Badge color="secondary">*/}
-                    {/*            <NotificationsIcon />*/}
-                    {/*        </Badge>*/}
-                    {/*    </IconButton>*/}
-                    {/*    <IconButton color="inherit">*/}
-                    {/*        <Badge color="secondary">*/}
-                    {/*            <ShoppingCartIcon />*/}
-                    {/*        </Badge>*/}
-                    {/*    </IconButton>*/}
-                    {/*</div>*/}
-                    {/*<div className={classes.sectionMobile}>*/}
-                    {/*    <IconButton*/}
-                    {/*        aria-label="show more"*/}
-                    {/*        aria-controls={mobileMenuId}*/}
-                    {/*        aria-haspopup="true"*/}
-                    {/*        onClick={handleMobileMenuOpen}*/}
-                    {/*        color="inherit"*/}
-                    {/*    >*/}
-                    {/*        <MoreIcon />*/}
-                    {/*    </IconButton>*/}
-                    {/*</div>*/}
                 </Toolbar>
             </AppBar>
             {renderMobileMenu}
-            {renderMenu}
         </div>
     );
 }

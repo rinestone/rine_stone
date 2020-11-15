@@ -1,3 +1,23 @@
 .MuiAppBar-colorPrimary {
     background-color: black;
 }
+
+.MuiMenu-list {
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+
+.MuiMenuItem-root {
+    color: white;
+}
+
+p {
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+}

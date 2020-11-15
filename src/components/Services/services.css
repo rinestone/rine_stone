@@ -3,25 +3,40 @@
     position: relative;
     /*max-width: auto;*/
     width: auto;
-    height: 60vw;
+    height: 50vw;
     text-align: center;
 }
 
-.serviceSquare h1 {
+.textJustify {
+    margin-left: 6vw;
+    margin-top: 5vw;
     color: #d16a6a;
-    font-size: 7vw;
+    width: 50vw;
+    height: 40vw;
 }
 
-.serviceSquare h2 {
-    font-size: 3vw;
-    color: #784745;
+.textJustify h1 {
+    font-size: 4vw;
 }
 
-.imageService {
-    margin-left: 100px;
+.textJustify h2 {
+    font-size: 2vw;
+}
+
+.h3text {
+    border: 5px dashed #bba3a3;
+    font-size: 2vw;
+    margin-top: 3vw;
+    color: #000000;
+    font-style: normal;
+}
+
+.textJustify img {
+    float:right;
+    margin-left: 150px;
     width: auto;
     height: 40vw;
     position: absolute;
-    right: 10%;
+    right: 5%;
 
 }
