@@ -22,13 +22,13 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <Switch>
-                        <Route exact path="/" component={Homepage}/>
-                        <Route path="/aranjamente" component={Aranjamente}/>
-                        <Route path="/ochelari" component={Ochelari}/>
-                        <Route path="/bratari" component={Bratari}/>
-                        <Route path="/costumeBaie" component={CostumBaie}/>
-                        <Route path="/ceasuriB" component={CeasuriB}/>
-                        <Route path="/ceasuriF" component={CeasuriF}/>
+                        <Route exact path="/rine_store" component={Homepage}/>
+                        <Route path="/rine_store/aranjamente" component={Aranjamente}/>
+                        <Route path="/rine_store/ochelari" component={Ochelari}/>
+                        <Route path="/rine_store/bratari" component={Bratari}/>
+                        <Route path="/rine_store/costumeBaie" component={CostumBaie}/>
+                        <Route path="/rine_store/ceasuriB" component={CeasuriB}/>
+                        <Route path="/rine_store/ceasuriF" component={CeasuriF}/>
                     </Switch>
                 </div>
             </Router>
