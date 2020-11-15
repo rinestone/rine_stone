@@ -15,6 +15,8 @@ const Homepage = () => {
     return (
         <div>
             <NavBar/>
+            {/* bardas */}
+            Homepage
             <Home_Image />
             <Gallery />
             <Services />
