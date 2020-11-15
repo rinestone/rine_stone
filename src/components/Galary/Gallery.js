@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { makeStyles } from "@material-ui/core/styles";
 import './Gallery.css'
 import elem1 from "../../images/slideElem/slide_elem1.png"
 import elem2 from "../../images/slideElem/slide_elem2.png"
@@ -8,7 +7,6 @@ import elem3 from "../../images/slideElem/slide_elem3.png"
 import elem4 from "../../images/slideElem/slide_elem4.png"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {Home} from "@material-ui/icons";
 
 
 export default class Gallery extends Component {

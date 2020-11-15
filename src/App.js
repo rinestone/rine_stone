@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Homepage from "./routes/homepage/homepage";
 import Bratari from "./routes/bratari/bratari";
-import { Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Ochelari from "./routes/glasses/ochelari";
 import CostumBaie from "./routes/costumBaie/costumBaie";
