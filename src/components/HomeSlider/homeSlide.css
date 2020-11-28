@@ -1,7 +1,14 @@
-.image {
+.imageHome {
     position: relative;
     width: 100%;
     text-align: center;
+    background-color: white;
+}
+
+.imageHome img {
+    background-color: white;
+    margin-top: 0px;
+    /*border-radius: 20px;*/
 }
 
 .centered {

@@ -1,10 +1,10 @@
 import React from "react";
 import slide1 from '../../images/slideElem/slide1.png'
-import './homepage.css'
+import './homeSlide.css'
 
 export default function Home_Image() {
     return (
-        <div class={'image'}>
+        <div class={'imageHome'}>
             <img src={slide1} alt={"image"} className={"image"}/>
             <div class={"centered"}>
                 <div className={"title"}>Rine Store </div>

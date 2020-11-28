@@ -1,24 +1,58 @@
 import React from "react";
 import "./footer.css"
-import FacebookIcon from '@material-ui/icons/Facebook';
-import PhoneIcon from '@material-ui/icons/Phone';
-import wapp from '../../images/home/wapp_icon.png'
+import { Icon, InlineIcon } from '@iconify/react';
+import mapMarker from '@iconify-icons/fa/map-marker';
+import phoneFilled from '@iconify-icons/carbon/phone-filled';
+import envelopeIcon from '@iconify-icons/fa/envelope';
+import facebookFilled from '@iconify-icons/ant-design/facebook-filled';
+import youtubeFilled from '@iconify-icons/ant-design/youtube-filled';
+import whatsAppOutlined from '@iconify-icons/ant-design/whats-app-outlined';
+
+
+
 
 export default function Footer() {
     return (
-        <div className={'footer'}>
-            <div className={'footer_contact'}>
-                <h1>DATE DE CONTACT</h1>
-                <div style={{marginTop: "2vw"}}>
-                    <a href={'https://www.facebook.com/FlorariaRinestore'}><FacebookIcon style={{height:'2vw', width:'2vw', marginLeft: "40px"}}/></a>
-                    <a href={"tel:072222"}><PhoneIcon style={{height:'2vw', width:'2vw', marginLeft: "40px"}}/></a>
-                    <a href={"tel:072222"}><img src={wapp} alt={wapp} style={{height:'2vw', width:'2vw', marginLeft: "40px"}}/></a>
+        <div className={"footer"}>
+            <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"/>
+            <footer className="footer-distributed">
+
+                <div className="footer-left">
+                        <h3>Rine<span> Store</span></h3>
+                        <p className="footer-links">
+                            <a href="#">Home</a>
+                            |
+                            <a href="#">Aranjamente Florale</a>
+                        </p>
+
+                        <p className="footer-company-name">© 2020 Floraria RineStore.</p>
                 </div>
-                <div style={{backgroundColor: 'black', height: '2vw'}}/>
-            </div>
 
-        </div>
+                <div className="footer-right">
+                    <p className="footer-company-about">
+                        <span>Contact</span></p>
+                    <div className="footer-icons">
+                        <a href="https://www.facebook.com/FlorariaRinestore"><i><Icon icon={facebookFilled} /></i></a>
+                        <a href="tel:0752780336"><i><Icon icon={whatsAppOutlined} /></i></a>
+                        <a href="https://www.youtube.com/channel/UCk3iSvK_YHeaEdyZXw8iHkA"><i><Icon icon={youtubeFilled} /></i></a>
+                    </div>
+                </div>
 
-    )
+                <div className="footer-center">
+                    <div>
+                        <i><Icon icon={mapMarker} /></i>
+                        <p>Galati</p>
+                    </div>
 
+                    <div>
+                        <i><Icon icon={phoneFilled} /></i>
+                        <p>0752780336</p>
+                    </div>
+                    <div>
+                        <i><Icon icon={envelopeIcon} /></i>
+                        <p><a href="mailto:rinestone1996@gmail.com">rinestone1996@gmail.com</a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>)
 }

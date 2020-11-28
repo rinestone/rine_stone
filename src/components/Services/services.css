@@ -8,8 +8,9 @@
 }
 
 .textJustify {
+    margin-top: 50px;
     margin-left: 6vw;
-    margin-top: 5vw;
+    /*margin-top: 5vw;*/
     color: #d16a6a;
     width: 50vw;
     height: 40vw;
@@ -24,18 +25,23 @@
 }
 
 .h3text {
-    border: 5px dashed #bba3a3;
+    padding: 3vw;
+    border: 0.5vw dashed #bba3a3;
     font-size: 2vw;
     margin-top: 3vw;
     color: #000000;
     font-style: normal;
 }
 
+img {
+    margin-top: 10px;
+}
+
 .textJustify img {
-    float:right;
-    margin-left: 150px;
-    width: auto;
-    height: 40vw;
+    /*float:right;*/
+    /*margin-left: 150px;*/
+    /*width: auto;*/
+    height: 50vw;
     position: absolute;
     right: 5%;
 

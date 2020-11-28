@@ -146,21 +146,21 @@ export default function PrimarySearchAppBar() {
                         <MenuIcon />
                     </IconButton>
                     <Typography className={classes.title} variant="h6" noWrap>
-                        Rine Store
+                        <h3 style={{color:"white"}}>Rine<span style={{color:"#d16a6a"}}> Store</span></h3>
                     </Typography>
                     <div className={classes.grow} />
                     <div className={classes.search}>
-                        <div className={classes.searchIcon}>
-                            <SearchIcon />
-                        </div>
-                        <InputBase
-                            placeholder="Cautare…"
-                            classes={{
-                                root: classes.inputRoot,
-                                input: classes.inputInput,
-                            }}
-                            inputProps={{ 'aria-label': 'search' }}
-                        />
+                    {/*    <div className={classes.searchIcon}>*/}
+                    {/*        <SearchIcon />*/}
+                    {/*    </div>*/}
+                    {/*    <InputBase*/}
+                    {/*        placeholder="Cautare…"*/}
+                    {/*        classes={{*/}
+                    {/*            root: classes.inputRoot,*/}
+                    {/*            input: classes.inputInput,*/}
+                    {/*        }}*/}
+                    {/*        inputProps={{ 'aria-label': 'search' }}*/}
+                    {/*    />*/}
                     </div>
                 </Toolbar>
             </AppBar>

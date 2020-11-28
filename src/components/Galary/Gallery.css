@@ -1,7 +1,7 @@
 .square {
     background: #d48585;
     position: relative;
-    height: 50vw;
+    height: 52vw;
     text-align: center;
 }
 
@@ -22,7 +22,14 @@
 }
 
 .slick-list {
-    height: 30vw;
+    background-color: #bbb98e;
+}
+
+.slick-track{
+    margin-top: 20px;
+}
+
+.slick-dots {
     background-color: #bbb98e;
 }
 
