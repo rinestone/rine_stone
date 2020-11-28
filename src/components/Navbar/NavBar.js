@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         marginRight: theme.spacing(3),
     },
     title: {
-        fontFamily: 'Segoe Script',
+        fontFamily: 'Cookie',
         display: 'none',
         [theme.breakpoints.up('sm')]: {
             display: 'block',

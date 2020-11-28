@@ -20,9 +20,9 @@ export default function Footer() {
                 <div className="footer-left">
                         <h3>Rine<span> Store</span></h3>
                         <p className="footer-links">
-                            <a href="#">Home</a>
+                            <a href="#">Home </a>
                             |
-                            <a href="#">Aranjamente Florale</a>
+                            <a href="#"> Aranjamente Florale</a>
                         </p>
 
                         <p className="footer-company-name">© 2020 Floraria RineStore.</p>
@@ -49,7 +49,7 @@ export default function Footer() {
                         <p>0752780336</p>
                     </div>
                     <div>
-                        <i><Icon icon={envelopeIcon} /></i>
+                        <i><Icon icon={envelopeIcon} style={{fontSize: "20px"}}/></i>
                         <p><a href="mailto:rinestone1996@gmail.com">rinestone1996@gmail.com</a></p>
                     </div>
                 </div>

@@ -21,7 +21,8 @@
 }
 
 .title {
-    font-family: 'Segoe Script', serif;
+    font: normal 36px 'Cookie';
+    /*font-family: 'Segoe Script', serif;*/
     display: flex;
     line-height: 1;
     font-size: 10vw;
