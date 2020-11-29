@@ -6,12 +6,15 @@
 }
 
 .square h1 {
+    /*font: 400 36px/0.8 'Great Vibes', Helvetica;*/
+    font-family: 'Great Vibes', Helvertica;
     color: white;
     font-size: 7vw;
 }
 
 .square h2 {
-    font-size: 2vw;
+    /*font-family: 'Great Vibes', Helvertica;*/
+    /*font-size: 5vw;*/
     color: #784745;
     margin-bottom: 20px;
 }
@@ -47,6 +50,12 @@
 
 .slick-track {
     position: center;
+}
+
+@media (max-width: 300px) {
+    .square {
+        height: 220px;
+    }
 }
 
 

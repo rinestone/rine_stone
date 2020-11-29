@@ -30,8 +30,8 @@ export default class Gallery extends Component {
 
         return (
             <div class={'square'}>
-                <h1>GALERIE</h1>
-                <h2>PRODUSELE NOASTRE</h2>
+                <h1>Galerie</h1>
+                <h2>Produsele Noastre</h2>
                 <Slider {...settings} >
                     <Link to={'/rine_store/aranjamente'}><div>
                         <img src={elem1} alt={elem1} className={'sliderimg'} />
@@ -54,21 +54,3 @@ export default class Gallery extends Component {
         );
     }
 }
-
-
-//     return (
-//         <div class={'square'}>
-//             <h1>There is a Square</h1>
-//             <h2>Produsele Noastre</h2>
-//             <Slider {...settings}>
-//                 <div>
-//                     <h3>1</h3>
-//                 </div>
-//                 <div>
-//                     <h3>2</h3>
-//                 </div>
-//             </Slider>
-//         </div>
-//     )
-//
-// }

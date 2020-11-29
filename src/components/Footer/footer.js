@@ -1,12 +1,13 @@
 import React from "react";
 import "./footer.css"
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import mapMarker from '@iconify-icons/fa/map-marker';
 import phoneFilled from '@iconify-icons/carbon/phone-filled';
 import envelopeIcon from '@iconify-icons/fa/envelope';
 import facebookFilled from '@iconify-icons/ant-design/facebook-filled';
 import youtubeFilled from '@iconify-icons/ant-design/youtube-filled';
 import whatsAppOutlined from '@iconify-icons/ant-design/whats-app-outlined';
+import { Link } from "react-router-dom";
 
 
 
@@ -20,9 +21,9 @@ export default function Footer() {
                 <div className="footer-left">
                         <h3>Rine<span> Store</span></h3>
                         <p className="footer-links">
-                            <a href="#">Home </a>
+                            <a href="/rine_store">Home </a>
                             |
-                            <a href="#"> Aranjamente Florale</a>
+                            <a href="/rine_store/aranjamente"> Aranjamente Florale</a>
                         </p>
 
                         <p className="footer-company-name">© 2020 Floraria RineStore.</p>

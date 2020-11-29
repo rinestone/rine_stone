@@ -215,7 +215,7 @@
 
 .footer-distributed h3{
     color:  #ffffff;
-    font: normal 36px 'Cookie';
+    font: 400 36px/0.8 'Great Vibes', Helvetica;
     margin: 0;
 }
 
@@ -342,6 +342,10 @@
 
 
 @media (max-width: 600px) {
+
+    .footer-distributed .footer-left a {
+        text-align: center;
+    }
 
     .footer-distributed .footer-left {
         margin-bottom: 40px;
