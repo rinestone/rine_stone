@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2348b5eb5f09f739c777d86da13db5f",
+    "revision": "cfd5aaf4ca3f856b37e79944083ecd1b",
     "url": "/rine_store/index.html"
   },
   {
-    "revision": "ef84469e96f36f35e37a",
+    "revision": "d5f53cccf73cdacac882",
     "url": "/rine_store/static/css/2.b22db313.chunk.css"
   },
   {
-    "revision": "b473cd7529cd2385f5d5",
-    "url": "/rine_store/static/css/main.2f5e9aa9.chunk.css"
+    "revision": "cf778e57116397c2b04d",
+    "url": "/rine_store/static/css/main.b49ddce7.chunk.css"
   },
   {
-    "revision": "ef84469e96f36f35e37a",
-    "url": "/rine_store/static/js/2.fce19ea4.chunk.js"
+    "revision": "d5f53cccf73cdacac882",
+    "url": "/rine_store/static/js/2.5800ca86.chunk.js"
   },
   {
     "revision": "1a3cc71403f332d098a2b9cdd7c4c36d",
-    "url": "/rine_store/static/js/2.fce19ea4.chunk.js.LICENSE.txt"
+    "url": "/rine_store/static/js/2.5800ca86.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b473cd7529cd2385f5d5",
-    "url": "/rine_store/static/js/main.e35b9dff.chunk.js"
+    "revision": "cf778e57116397c2b04d",
+    "url": "/rine_store/static/js/main.67279649.chunk.js"
   },
   {
     "revision": "7f3faa920dcdd38d475f",
