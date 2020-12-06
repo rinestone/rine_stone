@@ -37,17 +37,29 @@ export default class Gallery extends Component {
                         <img src={elem1} alt={elem1} className={'sliderimg'} />
                         <h2>Aranjamente Florale</h2>
                     </div></Link>
-                    <Link to={'/rine_store/ochelari'}><div>
-                        <img src={elem2} alt={elem2} className={'sliderimg'}/>
-                        <h2>Ochelari</h2>
+                    <Link to={'/rine_store/ceasuriD'}><div>
+                        <img src={elem3} alt={elem3} className={'sliderimg'}/>
+                        <h2>Ceasuri Dama</h2>
                     </div></Link>
                     <Link to={'/rine_store/ceasuriB'}><div>
                         <img src={elem3} alt={elem3} className={'sliderimg'}/>
-                        <h2>Ceasuri</h2>
+                        <h2>Ceasuri Barbatesti</h2>
                     </div></Link>
                     <Link to={'/rine_store/bratari'}><div>
                         <img src={elem4} alt={elem4} className={'sliderimg'}/>
                         <h2>Bratari</h2>
+                    </div></Link>
+                    <Link to={'/rine_store/seturiB'}><div>
+                        <img src={elem2} alt={elem2} className={'sliderimg'}/>
+                        <h2>Seturi Barbati</h2>
+                    </div></Link>
+                    <Link to={'/rine_store/seturiD'}><div>
+                        <img src={elem2} alt={elem2} className={'sliderimg'}/>
+                        <h2>Seturi Dama</h2>
+                    </div></Link>
+                    <Link to={'/rine_store/seturiC'}><div>
+                        <img src={elem2} alt={elem2} className={'sliderimg'}/>
+                        <h2>Seturi Cuplu</h2>
                     </div></Link>
                 </Slider>
             </div>

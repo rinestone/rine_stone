@@ -114,17 +114,20 @@ export default function PrimarySearchAppBar() {
                 <Link to={'/rine_store/bratari'}><MenuItem>
                     <p>BRATARI</p>
                 </MenuItem></Link>
-                <Link to={'/rine_store/ochelari'}><MenuItem>
-                    <p>OCHELARI</p>
-                </MenuItem></Link>
                 <Link to={'/rine_store/ceasuriB'}><MenuItem>
                     <p>CEASURI BARBATESTI</p>
                 </MenuItem></Link>
                 <Link to={'/rine_store/ceasuriF'}><MenuItem>
                     <p>CEASURI DAMA</p>
                 </MenuItem></Link>
-                <Link to={'/rine_store/costumeBaie'}><MenuItem>
-                    <p>COSTUME DE BAIE</p>
+                <Link to={'/rine_store/seturiB'}><MenuItem>
+                    <p>SETURI BARBATESTI</p>
+                </MenuItem></Link>
+                <Link to={'/rine_store/seturiD'}><MenuItem>
+                    <p>SETURI DAMA</p>
+                </MenuItem></Link>
+                <Link to={'/rine_store/seturiC'}><MenuItem>
+                    <p>SETURI CUPLU</p>
                 </MenuItem></Link>
             </div>
         </Menu>

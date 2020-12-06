@@ -35,13 +35,13 @@ export default function Bratari() {
                                     <CardMedia
                                         className={classes.cardMedia}
                                         image={card.img}
-                                        title="Image title"
+                                        title={card.title}
                                     />
                                     <CardContent className={classes.cardContent}>
                                         <Typography gutterBottom variant="h5" component="h2">
                                             {card.title}
                                         </Typography>
-                                        <Typography>{card.desc}</Typography>
+                                        <Typography style={{color: "black"}}>{card.desc}</Typography>
                                     </CardContent>
                                 </Card>
                             </Grid>
