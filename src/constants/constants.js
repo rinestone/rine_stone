@@ -24,8 +24,10 @@ export const useStyles = makeStyles(theme => ({
         height: "100%",
         display: "flex",
         flexDirection: "column",
+        backgroundSize : "contain cover",
     },
     cardMedia: {
+        backgroundSize : "contain, cover",
         paddingTop: "100%", // 16:9
     },
     cardContent: {

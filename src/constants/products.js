@@ -140,22 +140,22 @@ import seturiC_2 from "../images/Seturi/SeturiC/seturiC_2.jpg"
 export const bratariCart = [
     {
         img: bratara0,
-        desc: "40 lei",
+        price: "40 lei",
         title: "Bratara"
     },
     {
         img: bratara1,
-        desc: "40 lei",
+        price: "40 lei",
         title: "Bratara"
     },
     {
         img: bratara2,
-        desc: "40 lei",
+        price: "40 lei",
         title: "Bratara"
     },
     {
         img: bratara3,
-        desc: "40 lei",
+        price: "40 lei",
         title: "Bratara"
     }
 ];
@@ -163,413 +163,413 @@ export const bratariCart = [
 export const aranjamenteFloraleCart = [
     {
         img: aranjamente0,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente1,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente2,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente3,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente4,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente5,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente6,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente7,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente9,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente10,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente11,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente12,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente13,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente14,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     // {
     //     img: aranjamente15,
-    //     desc: "100 lei",
+    //     price: "100 lei",
     //     title: "Aranjament"
     // },
     {
         img: aranjamente16,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente17,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente18,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente19,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente20,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente21,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente22,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente23,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente24,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente25,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente26,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente27,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente28,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     },
     {
         img: aranjamente29,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Aranjament"
     }
 ];
 
 export const ceaturiD = [
-    {img: ceasuriD_3, desc: "50 lei", title: "Ceas Dama"}, {
+    {img: ceasuriD_3, price: "50 lei", title: "Ceas Dama"}, {
         img: ceasuriD_4,
-        desc: "50 lei",
+        price: "50 lei",
         title: "Ceas Dama"
-    }, {img: ceasuriD_0, desc: "50 lei", title: "Ceas Dama"}, {
+    }, {img: ceasuriD_0, price: "50 lei", title: "Ceas Dama"}, {
         img: ceasuriD_5,
-        desc: "50 lei",
+        price: "50 lei",
         title: "Ceas Dama"
-    }, {img: ceasuriD_8, desc: "50 lei", title: "Ceas Dama"}, {
+    }, {img: ceasuriD_8, price: "50 lei", title: "Ceas Dama"}, {
         img: ceasuriD_7,
-        desc: "50 lei",
+        price: "50 lei",
         title: "Ceas Dama"
-    }, {img: ceasuriD_1, desc: "50 lei", title: "Ceas Dama"}, {
+    }, {img: ceasuriD_1, price: "50 lei", title: "Ceas Dama"}, {
         img: ceasuriD_2,
-        desc: "50 lei",
+        price: "50 lei",
         title: "Ceas Dama"
-    }, {img: ceasuriD_6, desc: "50 lei", title: "Ceas Dama"},
+    }, {img: ceasuriD_6, price: "50 lei", title: "Ceas Dama"},
 
 ]
 
 export const ceaturiB = [
     {
         img: ceasuriB_12,
-        desc: "60 lei", title: "Ceas Barbat"
+        price: "60 lei", title: "Ceas Barbat"
     },
     {
         img: ceasuriB_7,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
-    {img: ceasuriB_14, desc: "60 lei", title: "Ceas Barbat"}, {
+    {img: ceasuriB_14, price: "60 lei", title: "Ceas Barbat"}, {
         img: ceasuriB_2,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
-    {img: ceasuriB_11, desc: "60 lei", title: "Ceas Barbat"}, {
+    {img: ceasuriB_11, price: "60 lei", title: "Ceas Barbat"}, {
         img: ceasuriB_19,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
-    {img: ceasuriB_17, desc: "60 lei", title: "Ceas Barbat"}, {
+    {img: ceasuriB_17, price: "60 lei", title: "Ceas Barbat"}, {
         img: ceasuriB_1,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
-    {img: ceasuriB_18, desc: "60 lei", title: "Ceas Barbat"}, {
+    {img: ceasuriB_18, price: "60 lei", title: "Ceas Barbat"}, {
         img: ceasuriB_3,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
-    {img: ceasuriB_4, desc: "60 lei", title: "Ceas Barbat"}, {
+    {img: ceasuriB_4, price: "60 lei", title: "Ceas Barbat"}, {
         img: ceasuriB_24,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
     {
-        img: ceasuriB_23, desc: "60 lei", title: "Ceas Barbat"
+        img: ceasuriB_23, price: "60 lei", title: "Ceas Barbat"
     },
     {
         img: ceasuriB_8,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
     {
-        img: ceasuriB_13, desc: "60 lei", title: "Ceas Barbat"
+        img: ceasuriB_13, price: "60 lei", title: "Ceas Barbat"
     }, {
         img: ceasuriB_9,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
     {
-        img: ceasuriB_16, desc: "60 lei", title: "Ceas Barbat"
+        img: ceasuriB_16, price: "60 lei", title: "Ceas Barbat"
     }, {
         img: ceasuriB_0,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
     {
-        img: ceasuriB_22, desc: "60 lei", title: "Ceas Barbat"
+        img: ceasuriB_22, price: "60 lei", title: "Ceas Barbat"
     }, {
         img: ceasuriB_15,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
-    {img: ceasuriB_21, desc: "60 lei", title: "Ceas Barbat"}, {
+    {img: ceasuriB_21, price: "60 lei", title: "Ceas Barbat"}, {
         img: ceasuriB_20,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
     {
-        img: ceasuriB_5, desc: "60 lei", title: "Ceas Barbat"
+        img: ceasuriB_5, price: "60 lei", title: "Ceas Barbat"
     }, {
         img: ceasuriB_10,
-        desc: "60 lei",
+        price: "60 lei",
         title: "Ceas Barbat"
     },
-    {img: ceasuriB_6, desc: "60 lei", title: "Ceas Barbat"},
+    {img: ceasuriB_6, price: "60 lei", title: "Ceas Barbat"},
 ];
 
 export const seturiB = [
     {
         img: seturiB_12,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
     }, {
         img: seturiB_32,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Barbatesti"
     }, {
         img: seturiB_39,
-        desc: "80 lei",
+        price: "80 lei",
         title: "Seturi Barbatesti"
     },
     {
         img: seturiB_24,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
     }, {
         img: seturiB_40,
-        desc: "80 lei",
+        price: "80 lei",
         title: "Seturi Barbatesti"
     },
     {
         img: seturiB_2,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
     }, {
-        img: seturiB_10, desc: "120 lei", title: "Seturi Barbatesti"
+        img: seturiB_10, price: "120 lei", title: "Seturi Barbatesti"
     }, {
         img: seturiB_27,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_21, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_21, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_41,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_18, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_18, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_33,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_22, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_22, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_1,
-        desc: "80 lei",
+        price: "80 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_30, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_30, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_36,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_38, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_38, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_8,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_16, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_16, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_23,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_3, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_3, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_11,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_20, desc: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_20, price: "80 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_5,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_19, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_19, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_15,
-        desc: "80 lei",
+        price: "80 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_13, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_13, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_35,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_29, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_29, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_0,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_28, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_28, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_34,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_4, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_4, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_9,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_25, desc: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_25, price: "80 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_7,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_31, desc: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_31, price: "120 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_17,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_42, desc: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_42, price: "80 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_37,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_14, desc: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {img: seturiB_14, price: "80 lei", title: "Seturi Barbatesti"}, {
         img: seturiB_6,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_26, desc: "120 lei", title: "Seturi Barbatesti"},
+    }, {img: seturiB_26, price: "120 lei", title: "Seturi Barbatesti"},
 ]
 
 export const seturiD = [
     {
         img: seturiD_3,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_5,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_9,
-        desc: "80 lei",
+        price: "80 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_11,
-        desc: "80 lei",
+        price: "80 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_8,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_13,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_6,
-        desc: "80 lei",
+        price: "80 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_7,
-        desc: "120 lei",
+        price: "120 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_0,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_4,
-        desc: "80 lei",
+        price: "80 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_12,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_10,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     },
     {
         img: seturiD_1,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     },
     {
         img: seturiD_2,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     },
 ]
@@ -577,27 +577,27 @@ export const seturiD = [
 export const seturiC = [
     {
         img: seturiC_4,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Cuplu"
     }, {
         img: seturiC_1,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Cuplu"
     }, {
         img: seturiC_5,
-        desc: "40 lei",
+        price: "40 lei",
         title: "Seturi Cuplu"
     }, {
         img: seturiC_0,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Cuplu"
     }, {
         img: seturiC_3,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Cuplu"
     }, {
         img: seturiC_2,
-        desc: "100 lei",
+        price: "100 lei",
         title: "Seturi Cuplu"
     },
 

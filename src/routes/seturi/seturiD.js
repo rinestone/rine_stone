@@ -39,7 +39,7 @@ export default function SeturiD() {
                                         <Typography gutterBottom variant="h5" component="h2">
                                             {card.title}
                                         </Typography>
-                                        <Typography style={{color: "black"}}>{card.desc}</Typography>
+                                        <Typography style={{color: "black"}}>{card.price}</Typography>
                                     </CardContent>
                                 </Card>
                             </Grid>
