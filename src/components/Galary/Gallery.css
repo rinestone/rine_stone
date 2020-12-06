@@ -1,7 +1,7 @@
 .square {
     background: #d48585;
     position: relative;
-    height: 52vw;
+    height: 56vw;
     text-align: center;
 }
 
@@ -15,6 +15,7 @@
 .square h2 {
     /*font-family: 'Great Vibes', Helvertica;*/
     /*font-size: 5vw;*/
+    font-size: 3vw;
     color: #784745;
     margin-bottom: 20px;
 }
@@ -52,9 +53,9 @@
     position: center;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 420px) {
     .square {
-        height: 220px;
+        height: 280px;
     }
 }
 

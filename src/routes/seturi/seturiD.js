@@ -21,9 +21,7 @@ export default function SeturiD() {
             <NavBar/>
             <div className={"image"}>
                 <img src={ceasDama} alt={"slide3"} className={"image"}/>
-                <div className={"centered"}>
-                    <div className={"bracelet"}>SETURI DAMA</div>
-                </div>
+                <div className={"centered"}>SETURI DAMA</div>
                 <div className={"lineBracelet"}>
                 </div>
             </div>

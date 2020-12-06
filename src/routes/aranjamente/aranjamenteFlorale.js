@@ -21,9 +21,7 @@ export default function Aranjamente() {
             <NavBar/>
             <div className={"image"}>
                 <img src={aranjamente} alt={"slide3"} className={"image"}/>
-                <div className={"centered"}>
-                    <div className={"bracelet"}>ARANJAMENTE FLORALE</div>
-                </div>
+                <div className={"centered"}>ARANJAMENTE FLORALE</div>
                 <div className={"lineBracelet"}>
                 </div>
             </div>

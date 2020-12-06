@@ -1,10 +1,15 @@
 .serviceSquare {
     background: white;
     position: relative;
-    /*max-width: auto;*/
     width: auto;
     height: 50vw;
     text-align: center;
+}
+
+@media  {
+    .serviceSquare {
+        margin-top: 80px;
+    }
 }
 
 .textJustify {

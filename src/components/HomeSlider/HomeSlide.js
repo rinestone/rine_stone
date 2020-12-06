@@ -6,9 +6,9 @@ export default function Home_Image() {
     return (
         <div class={'imageHome'}>
             <img src={slide1} alt={"image"} className={"image"}/>
-            <div class={"centered"}>
-                <div className={"title"}>Rine Store </div>
-                <div className={"title2"}> AMINTIRI DE NEUITAT</div>
+            <div class={"homecentered"}>
+                <div className={"hometitle"}>Rine Store </div>
+                <div className={"hometitle2"}> AMINTIRI DE NEUITAT</div>
             </div>
         </div>
     )

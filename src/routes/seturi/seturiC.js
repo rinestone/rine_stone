@@ -21,9 +21,7 @@ export default function SeturiC() {
             <NavBar/>
             <div className={"image"}>
                 <img src={ceasBarbatesc} alt={"slide3"} className={"image"}/>
-                <div className={"centered"}>
-                    <div className={"bracelet"}>SETURI CUPLU</div>
-                </div>
+                <div className={"centered"}>SETURI CUPLU</div>
                 <div className={"lineBracelet"}>
                 </div>
             </div>

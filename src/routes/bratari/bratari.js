@@ -20,9 +20,7 @@ export default function Bratari() {
             <NavBar/>
             <div className={"image"}>
                 <img src={slide3} alt={"slide3"} className={"image"}/>
-                <div className={"centered"}>
-                    <div className={"bracelet"}>BRATARI</div>
-                </div>
+                <div className={"centered"}>BRATARI</div>
                 <div className={"lineBracelet"}>
                 </div>
             </div>

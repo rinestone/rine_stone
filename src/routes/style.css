@@ -7,29 +7,21 @@
 
 .lineBracelet {
     background: #d48585;
-    height: 50px;
+    /*height: 50px;*/
 }
 
 .centered {
+    font-size: 5vw;
     color: white;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
 
 .centered .bracelet {
     font-size: 6vw;
     padding-bottom: 40px;
-}
-
-.bracelet {
-    font-size: 70px;
-    size: 100px;
-}
-
-.bracelet {
-    height: auto;
 }
 
 .card {
@@ -44,13 +36,4 @@
 
 .card h1 {
     font-size: 4vw;
-}
-
-.price {
-    color: grey;
-    font-size: 3vw;
-}
-
-@media {
-
 }

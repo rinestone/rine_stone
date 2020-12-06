@@ -21,9 +21,7 @@ export default function SeturiB() {
             <NavBar/>
             <div className={"image"}>
                 <img src={ceasBarbatesc} alt={"slide3"} className={"image"}/>
-                <div className={"centered"}>
-                    <div className={"bracelet"}>SETURI BARBATESTI</div>
-                </div>
+                <div className={"centered"}>SETURI BARBATESTI</div>
                 <div className={"lineBracelet"}>
                 </div>
             </div>

@@ -21,9 +21,7 @@ export default function CeasuriB() {
             <NavBar/>
             <div className={"image"}>
                 <img src={ceasBarbatesc} alt={"slide3"} className={"image"}/>
-                <div className={"centered"}>
-                    <div className={"bracelet"}>CEASURI BARBATI</div>
-                </div>
+                <div className={"centered"}>CEASURI BARBATI</div>
                 <div className={"lineBracelet"}>
                 </div>
             </div>

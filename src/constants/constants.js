@@ -23,10 +23,10 @@ export const useStyles = makeStyles(theme => ({
     card: {
         height: "100%",
         display: "flex",
-        flexDirection: "column"
+        flexDirection: "column",
     },
     cardMedia: {
-        paddingTop: "100%" // 16:9
+        paddingTop: "100%", // 16:9
     },
     cardContent: {
         textAlign: "center",
