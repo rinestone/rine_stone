@@ -15,7 +15,9 @@ function Notification() {
                         <button type="button" className="close font__size-18" data-dismiss="alert">
                         </button>
                         <i className="start-icon  fa fa-exclamation-triangle faa-shake animated"/>
+                        {/*<strong className="font__weight-semibold">Atentie !</strong> Comenzile sunt disponibile doar prin numarul de WhatsApp: <a href={"tell:0752780336"}> 0752780336 </a> si pagina de <a href={"https://www.facebook.com/FlorariaRinestore"} > Facebook. </a>*/}
                         <strong className="font__weight-semibold">Atentie !</strong> Comenzile sunt disponibile doar prin numarul de WhatsApp: <a href={"tell:0752780336"}> 0752780336 </a> si pagina de <a href={"https://www.facebook.com/FlorariaRinestore"} > Facebook. </a>
+
                     </div>
                 </div>
             </div>

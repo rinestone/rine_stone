@@ -415,7 +415,7 @@ export const seturiB = [
         title: "Seturi Barbatesti"
     }, {
         img: seturiB_32,
-        price: "100 lei",
+        price: "140 lei",
         title: "Seturi Barbatesti"
     }, {
         img: seturiB_39,
@@ -436,80 +436,137 @@ export const seturiB = [
         price: "120 lei",
         title: "Seturi Barbatesti"
     }, {
-        img: seturiB_10, price: "120 lei", title: "Seturi Barbatesti"
+        img: seturiB_10,
+        price: "120 lei",
+        title: "Seturi Barbatesti"
     }, {
         img: seturiB_27,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_21, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_21,
+        price: "120 lei",
+        title: "Seturi Barbatesti"
+    }, {
         img: seturiB_41,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_18, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_18,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_33,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_22, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_22,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_1,
         price: "80 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_30, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_30,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_36,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_38, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_38,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_8,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_16, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_16,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_23,
-        price: "100 lei",
+        price: "140 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_3, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_3,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_11,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_20, price: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_20,
+        price: "80 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_5,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_19, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_19,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_15,
         price: "80 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_13, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_13,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_35,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_29, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_29,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_0,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_28, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_28,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_34,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_4, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_4,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_9,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_25, price: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_25,
+        price: "80 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_7,
-        price: "100 lei",
+        price: "140 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_31, price: "120 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_31,
+        price: "120 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_17,
-        price: "100 lei",
+        price: "140 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_42, price: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_42,
+        price: "80 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_37,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_14, price: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_14,
+        price: "80 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_6,
         price: "120 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_26, price: "120 lei", title: "Seturi Barbatesti"},
+    }, {
+        img: seturiB_26,
+        price: "120 lei", title: "Seturi Barbatesti"
+    },
 ]
 
 export const seturiD = [
@@ -523,29 +580,25 @@ export const seturiD = [
         title: "Seturi Dama"
     }, {
         img: seturiD_9,
-        price: "80 lei",
+        price: "110 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_11,
-        price: "80 lei",
+        price: "110 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_8,
-        price: "120 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_13,
-        price: "120 lei",
+        price: "100 lei",
         title: "Seturi Dama"
     }, {
         img: seturiD_6,
-        price: "80 lei",
+        price: "110 lei",
         title: "Seturi Dama"
-    }, {
-        img: seturiD_7,
-        price: "120 lei",
-        title: "Seturi Dama"
-    }, {
+    },  {
         img: seturiD_0,
         price: "100 lei",
         title: "Seturi Dama"
@@ -585,7 +638,7 @@ export const seturiC = [
         title: "Seturi Cuplu"
     }, {
         img: seturiC_5,
-        price: "40 lei",
+        price: "60 lei",
         title: "Seturi Cuplu"
     }, {
         img: seturiC_0,
