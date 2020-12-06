@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Homepage from "./routes/homepage/homepage";
 import Bratari from "./routes/bratari/bratari";
@@ -7,8 +7,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
 } from "react-router-dom"
+
 import Aranjamente from "./routes/aranjamente/aranjamenteFlorale";
 import CeasuriB from "./routes/watchs/ceasuriB";
 import CeasuriF from "./routes/watchs/ceasuriD";

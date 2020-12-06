@@ -138,12 +138,12 @@
 
 .footer-distributed .footer-icons a{
     display: inline-block;
-    width: 35px;
+    width: 60px;
     height: 35px;
     cursor: pointer;
     /*background-color:  #33383b;*/
     border-radius: 2px;
-    font-size: 25px;
+    font-size: 35px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;

@@ -1,0 +1,54 @@
+.notification {
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+}
+
+.alert>.start-icon {
+    margin-right: 0;
+    /*min-width: 0px;*/
+    text-align: center;
+}
+
+.alert>.start-icon {
+    margin-right: 5px;
+}
+
+.alert-simple.alert-info
+{
+    border: 1px solid #d48585;
+    box-shadow: 0px 0px 2px #784745;
+    color: #784745;
+    transition:0.5s;
+    text-align: center;
+    /*cursor:pointer;*/
+}
+
+
+/**
+ * ----------------------------------------
+ * animation blink-1
+ * ----------------------------------------
+ */
+@-webkit-keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+@keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}

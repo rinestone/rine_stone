@@ -140,17 +140,17 @@ import seturiC_2 from "../images/Seturi/SeturiC/seturiC_2.jpg"
 export const bratariCart = [
     {
         img: bratara0,
-        desc: "30 lei",
+        desc: "40 lei",
         title: "Bratara"
     },
     {
         img: bratara1,
-        desc: "30 lei",
+        desc: "40 lei",
         title: "Bratara"
     },
     {
         img: bratara2,
-        desc: "30 lei",
+        desc: "40 lei",
         title: "Bratara"
     },
     {
@@ -409,19 +409,35 @@ export const ceaturiB = [
 ];
 
 export const seturiB = [
-    {img: seturiB_12, desc: "80 lei", title: "Seturi Barbatesti"}, {
+    {
+        img: seturiB_12,
+        desc: "100 lei",
+        title: "Seturi Barbatesti"
+    }, {
         img: seturiB_32,
+        desc: "100 lei",
+        title: "Seturi Barbatesti"
+    }, {
+        img: seturiB_39,
         desc: "80 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_39, desc: "80 lei", title: "Seturi Barbatesti"}, {
+    },
+    {
         img: seturiB_24,
         desc: "80 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_40, desc: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_40,
+        desc: "80 lei",
+        title: "Seturi Barbatesti"
+    },
+    {
         img: seturiB_2,
         desc: "80 lei",
         title: "Seturi Barbatesti"
-    }, {img: seturiB_10, desc: "80 lei", title: "Seturi Barbatesti"}, {
+    }, {
+        img: seturiB_10, desc: "80 lei", title: "Seturi Barbatesti"
+    }, {
         img: seturiB_27,
         desc: "80 lei",
         title: "Seturi Barbatesti"
@@ -497,45 +513,89 @@ export const seturiB = [
 ]
 
 export const seturiD = [
-    {img: seturiD_3, desc: "100 lei", title: "Seturi Dama"}, {
+    {
+        img: seturiD_3,
+        desc: "100 lei",
+        title: "Seturi Dama"
+    }, {
         img: seturiD_5,
         desc: "100 lei",
         title: "Seturi Dama"
-    }, {img: seturiD_9, desc: "100 lei", title: "Seturi Dama"}, {
+    }, {
+        img: seturiD_9,
+        desc: "80 lei",
+        title: "Seturi Dama"
+    }, {
         img: seturiD_11,
-        desc: "100 lei",
+        desc: "80 lei",
         title: "Seturi Dama"
-    }, {img: seturiD_8, desc: "100 lei", title: "Seturi Dama"}, {
+    }, {
+        img: seturiD_8,
+        desc: "120 lei",
+        title: "Seturi Dama"
+    }, {
         img: seturiD_13,
-        desc: "100 lei",
+        desc: "120 lei",
         title: "Seturi Dama"
-    }, {img: seturiD_6, desc: "100 lei", title: "Seturi Dama"}, {
+    }, {
+        img: seturiD_6,
+        desc: "80 lei",
+        title: "Seturi Dama"
+    }, {
         img: seturiD_7,
+        desc: "120 lei",
+        title: "Seturi Dama"
+    }, {
+        img: seturiD_0,
         desc: "100 lei",
         title: "Seturi Dama"
-    }, {img: seturiD_0, desc: "100 lei", title: "Seturi Dama"}, {
+    }, {
         img: seturiD_4,
+        desc: "80 lei",
+        title: "Seturi Dama"
+    }, {
+        img: seturiD_12,
         desc: "100 lei",
         title: "Seturi Dama"
-    }, {img: seturiD_12, desc: "100 lei", title: "Seturi Dama"}, {
+    }, {
         img: seturiD_10,
         desc: "100 lei",
         title: "Seturi Dama"
     },
-    {img: seturiD_1, desc: "100 lei", title: "Seturi Dama"},
-    {img: seturiD_2, desc: "100 lei", title: "Seturi Dama"},
+    {
+        img: seturiD_1,
+        desc: "100 lei",
+        title: "Seturi Dama"
+    },
+    {
+        img: seturiD_2,
+        desc: "100 lei",
+        title: "Seturi Dama"
+    },
 ]
 
 export const seturiC = [
-    {img: seturiC_4, desc: "100 lei", title: "Seturi Cuplu"}, {
+    {
+        img: seturiC_4,
+        desc: "100 lei",
+        title: "Seturi Cuplu"
+    }, {
         img: seturiC_1,
         desc: "100 lei",
         title: "Seturi Cuplu"
-    }, {img: seturiC_5, desc: "100 lei", title: "Seturi Cuplu"}, {
+    }, {
+        img: seturiC_5,
+        desc: "40 lei",
+        title: "Seturi Cuplu"
+    }, {
         img: seturiC_0,
         desc: "100 lei",
         title: "Seturi Cuplu"
-    }, {img: seturiC_3, desc: "100 lei", title: "Seturi Cuplu"}, {
+    }, {
+        img: seturiC_3,
+        desc: "100 lei",
+        title: "Seturi Cuplu"
+    }, {
         img: seturiC_2,
         desc: "100 lei",
         title: "Seturi Cuplu"

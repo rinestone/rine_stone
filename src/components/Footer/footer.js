@@ -7,7 +7,6 @@ import envelopeIcon from '@iconify-icons/fa/envelope';
 import facebookFilled from '@iconify-icons/ant-design/facebook-filled';
 import youtubeFilled from '@iconify-icons/ant-design/youtube-filled';
 import whatsAppOutlined from '@iconify-icons/ant-design/whats-app-outlined';
-import {Link} from "react-router-dom";
 
 
 export default function Footer() {

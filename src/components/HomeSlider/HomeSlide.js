@@ -5,7 +5,7 @@ import './homeSlide.css'
 export default function Home_Image() {
     return (
         <div class={'imageHome'}>
-            <img src={slide1} alt={"image"} className={"image"}/>
+            <img src={slide1} alt={""} className={"image"}/>
             <div class={"homecentered"}>
                 <div className={"hometitle"}>Rine Store </div>
                 <div className={"hometitle2"}> AMINTIRI DE NEUITAT</div>

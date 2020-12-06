@@ -1,7 +1,6 @@
-import React, {Component} from "react";
+import React from "react";
 import Footer from "../../components/Footer/footer";
 import NavBar from "../../components/Navbar/NavBar";
-import slide3 from "../../images/slideElem/slide3.png";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
